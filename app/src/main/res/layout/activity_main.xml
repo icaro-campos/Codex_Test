@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_linear_codex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#212529"
+        android:gravity="center_horizontal"
+        android:paddingStart="8dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noto_sans"
+            android:text="@string/title_name"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_linear_codex"
+        android:layout_margin="16dp"
+        android:columnCount="2"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/green_codex_idle"
+            android:text="@string/exercise_1" />
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/green_codex_idle"
+            android:text="@string/exercise_2" />
+
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/green_codex_idle"
+            android:text="@string/exercise_3" />
+
+        <Button
+            android:id="@+id/button_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/green_codex_idle"
+            android:text="@string/exercise_4" />
+
+        <Button
+            android:id="@+id/button_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/green_codex_idle"
+            android:text="@string/exercise_5" />
+
+        <Button
+            android:id="@+id/button_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/green_codex_idle"
+            android:text="@string/exercise_6" />
+
+    </GridLayout>
+
+
+</RelativeLayout>

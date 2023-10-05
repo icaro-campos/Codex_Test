@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    android:backgroundTint="@color/white">
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <CheckBox
+            android:id="@+id/checkbox_to_do"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            tools:text="TEXTO DE EXEMPLO"
+            android:layout_toEndOf="@+id/checkbox_to_do"
+            android:textColor="@color/black"
+            android:fontFamily="@font/noto_sans"
+            android:textSize="12sp"/>
+
+        <ImageButton
+            android:id="@+id/image_button_erase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_alignBottom="@id/text_item"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_trash"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

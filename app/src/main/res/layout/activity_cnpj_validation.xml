@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente_background"
+    android:padding="16dp"
+    tools:context=".exercise1.CnpjValidationActivity">
+
+    <EditText
+        android:id="@+id/edit_cnpj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/noto_sans"
+        android:gravity="center_horizontal"
+        android:hint="@string/insert_the_cnpj"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_validated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_cnpj"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/noto_sans"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:text="CNPJ Válido" />
+
+    <Button
+        android:id="@+id/button_validate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="64dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/green_codex_idle"
+        android:fontFamily="@font/noto_sans"
+        android:padding="8dp"
+        android:text="@string/validate"
+        android:textAllCaps="true"
+        android:textSize="16sp" />
+
+</RelativeLayout>

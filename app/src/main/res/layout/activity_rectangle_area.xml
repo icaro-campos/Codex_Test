@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente_background"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".exercise2.RectangleIntersectActivity">
+
+    <EditText
+        android:id="@+id/edit_rectangle_area_coordinate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/noto_sans"
+        android:gravity="center_horizontal"
+        android:hint="@string/rectangle_inputs"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_result_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="Resultados:"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_calculate_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:backgroundTint="@color/green_codex_idle"
+        android:text="Calcular" />
+
+</RelativeLayout>

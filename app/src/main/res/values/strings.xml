@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Codex Test</string>
+    <string name="title_name">codex test</string>
+    <string name="exercise_1">1</string>
+    <string name="exercise_2">2</string>
+    <string name="exercise_3">3</string>
+    <string name="exercise_4">4</string>
+    <string name="exercise_5">5</string>
+    <string name="exercise_6">6</string>
+    <string name="exercise_7">7</string>
+    <string name="exercise_8">8</string>
+    <string name="validate">VALIDAR</string>
+    <string name="insert_the_cnpj">Insira o CNPJ</string>
+    <string name="cnpj_is_valid">CNPJ Válido</string>
+    <string name="cnpj_is_invalid">CNPJ inválido</string>
+    <string name="rectangle_inputs">Digite os valores dos retângulos</string>
+</resources>

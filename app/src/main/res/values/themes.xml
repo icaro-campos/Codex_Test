@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyCodexTest" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MyCodexTest" parent="Base.Theme.MyCodexTest" />
+    
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog" >
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+</resources>
